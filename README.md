@@ -4,7 +4,7 @@ MVVM<br>
 Retrofit<br>
 Shared Preferences<br>
 Live Data<br>
-Viewbinding<br><br>
+Viewbinding<br>
 ............<br><br>
 ![Ekran Alıntısı1](https://user-images.githubusercontent.com/49581443/196460684-7b1e8da7-047c-4721-9df7-1456524bc96c.PNG)<br>
 ![Ekran Alıntısı3](https://user-images.githubusercontent.com/49581443/196460704-dc854bbc-e1f8-4dbc-9962-7168ca7e243c.PNG)<br>
