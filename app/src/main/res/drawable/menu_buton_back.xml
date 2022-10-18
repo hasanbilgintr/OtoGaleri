@@ -1,0 +1,13 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#00587a" />
+            <corners android:radius="10dp" />
+            <gradient
+                android:endColor="#00587a"
+                android:startColor="#cdcba6" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/menu_buton_focused" android:state_focused="true" />
+    <item android:drawable="@drawable/menu_buton_normal" />
+</selector>

@@ -1,31 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#3897D9"
+    android:orientation="vertical"
     tools:context=".ui.home.HomeFragment">
 
-    <!--<TextView
-        android:id="@+id/text_home"
 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />-->
     <LinearLayout
         android:id="@+id/sliderlayout"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:orientation="vertical">
 
         <androidx.viewpager.widget.ViewPager
@@ -34,40 +22,44 @@
             android:background="#F2F1EF">
 
         </androidx.viewpager.widget.ViewPager>
-
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/menu"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/sliderlayout"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+
         android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+
             android:orientation="horizontal">
 
-
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:background="@drawable/menu_buton_back"
                 android:drawableTop="@drawable/sale"
                 android:text="Satılık İlanlar"
-                android:textColor="#fff"
+                android:textColor="#0f3057"
                 android:textStyle="bold" />
+
 
             <Button
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:background="@drawable/menu_buton_back"
                 android:drawableTop="@drawable/rent"
                 android:text="Kiralık İlanlar"
-                android:textColor="#fff"
+                android:textColor="#0f3057"
+
                 android:textStyle="bold" />
 
 
@@ -84,9 +76,11 @@
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:background="@drawable/menu_buton_back"
                 android:drawableTop="@drawable/contact"
                 android:text="İletişim Bilgileri"
-                android:textColor="#fff"
+                android:textColor="#0f3057"
+
                 android:textStyle="bold" />
 
             <Button
@@ -94,15 +88,18 @@
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:background="@drawable/menu_buton_back"
                 android:drawableTop="@drawable/notice"
                 android:text="Duyurular"
-                android:textColor="#fff"
+                android:textColor="#0f3057"
+
                 android:textStyle="bold" />
 
 
         </LinearLayout>
 
+
     </LinearLayout>
 
 
-</RelativeLayout>
+</LinearLayout>

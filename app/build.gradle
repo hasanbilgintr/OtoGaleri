@@ -44,5 +44,9 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
-    implementation 'com.ToxicBakery.viewpager.transforms:view-pager-transforms:1.2.32@aar'
+    implementation 'com.ToxicBakery.viewpager.transforms:view-pager-transforms:1.2.32@aar'/*slider kullanımı için*/
+
+    implementation  'com.squareup.retrofit2:retrofit:2.1.0'//retrofit eklendi
+    implementation  'com.squareup.okhttp3:okhttp:4.9.0'//retrofit eklendi
+    implementation  'com.squareup.retrofit2:converter-gson:2.1.0'//retrofit eklendi
 }

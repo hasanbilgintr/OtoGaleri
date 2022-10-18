@@ -1,6 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.OtoGaleri" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <!--buton rengi ile action bar aynı olmasının sebebebi bu parent olmasından  bunu  Theme.MaterialComponents.DayNight.DarkActionBar   den  Theme.AppCompat.DayNight.DarkActionBar yapıldı buton rengi farklı değiştirebilsin diye heriksiinede  -->
+    <style name="Theme.OtoGaleri" parent="Theme.AppCompat.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -18,8 +19,6 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
-
     <style name="Theme.OtoGaleri.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
     <style name="Theme.OtoGaleri.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

@@ -25,8 +25,7 @@ public class fragmentdeneme extends Fragment {
         binding = FragmentdenemeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.text;
-        fragmentdenemeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+
         return root;
     }
 
