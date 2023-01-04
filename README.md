@@ -5,6 +5,8 @@ Retrofit<br>
 Shared Preferences<br>
 Live Data<br>
 Viewbinding<br>
+Push Notification<br>
+
 ............<br><br>
 Login / User Create / Push Notification / E-mail Sending / User Activation / Menu Page / Navigation Draver ...
 <br>
