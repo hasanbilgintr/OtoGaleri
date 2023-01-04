@@ -7,7 +7,7 @@ Live Data<br>
 Viewbinding<br>
 ............<br><br>
 Login / User Create / Push Notification / E-mail Sending / User Activation / Menu Page / Navigation Draver ...
-<br><br>
+<br>
 ![image](https://user-images.githubusercontent.com/49581443/210663854-208d636b-abe4-41f5-a142-4748026f48ab.png)
 ![image](https://user-images.githubusercontent.com/49581443/210664517-3f8b0f17-ccb1-4d5a-902d-46da9de8b27c.png)
 ![image](https://user-images.githubusercontent.com/49581443/210664607-64d886ba-78da-4b06-8b58-3c2d9e67af79.png)
