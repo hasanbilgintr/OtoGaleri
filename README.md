@@ -5,9 +5,11 @@ Retrofit<br>
 Shared Preferences<br>
 Live Data<br>
 View Binding<br>
-Push Notification<br>
+Push Notification (One Signal)<br>
 Web Service (Rest,Json)<br>
-
+Php & Mysql<br>
+Firebase<br>
+Google Map Api<br>
 ............<br><br>
 Login / User Create / Push Notification / E-mail Sending / User Activation / Menu Page / Navigation Draver ...
 <br>
