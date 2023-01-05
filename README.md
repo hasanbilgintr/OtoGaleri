@@ -6,7 +6,7 @@ Shared Preferences<br>
 Live Data<br>
 View Binding<br>
 Push Notification<br>
-Rest(Json)<br>
+Web Service (Rest,Json)<br>
 
 ............<br><br>
 Login / User Create / Push Notification / E-mail Sending / User Activation / Menu Page / Navigation Draver ...
