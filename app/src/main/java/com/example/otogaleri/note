@@ -1,0 +1,150 @@
+-----------------------------------------------------------
+//ilk card layoututu
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    android:background="#E2E6B9"
+    android:orientation="horizontal">
+     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/ilanlarresim"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:id="@+id/ucretTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="fiyat:"
+            android:textSize="12sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="70"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/baslikTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Başlık:"
+            android:textSize="10sp" />
+        <TextView
+            android:id="@+id/adresTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Marka:"
+            android:textSize="10sp" />
+        <TextView
+            android:id="@+id/markaSeriModelTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="adres:"
+            android:textSize="10sp" />
+    </LinearLayout>
+</LinearLayout>
+----------------------------------------------------------------
+region ilanlariller getirilmesi (sayısız)
+//        viewModel.illeridoldur();
+ /*       viewModel.resultillist.observe(getViewLifecycleOwner(), ilanlarIlList -> {
+            //illist = new ArrayList<>();
+            ilidlist = new ArrayList<>();
+            int a = ilanlarIlList.size();
+
+            cityArray = new String[a];
+            for (int i = 0; i < ilanlarIlList.size(); i++) {
+                cityArray[i] = ilanlarIlList.get(i).getIl();
+            }
+            for (int i = 0; i < ilanlarIlList.size(); i++) {
+                ilidlist.add(ilanlarIlList.get(i).getId());
+            }
+            //https://www.youtube.com/watch?v=XrDVu3uPY3o&t=35s
+            cityList = new ArrayList<>();
+            selectedcity = new boolean[cityArray.length];
+            binding.iltextview.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+
+                    AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
+                    builder.setTitle("İl Seçimi");
+                    builder.setCancelable(false);
+
+                    builder.setMultiChoiceItems(cityArray, selectedcity, new DialogInterface.OnMultiChoiceClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which, boolean isChecked) {
+                            if (isChecked) {
+                                cityList.add(which);
+                                Collections.sort(cityList);
+                            } else {
+                                for (int j = 0; j < cityList.size(); j++) {
+                                    if (cityList.get(j) == which) {
+                                        cityList.remove(j);
+                                    }
+                                }
+                            }
+
+
+                        }
+                    });
+                    builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            StringBuilder stringBuilder = new StringBuilder();
+                            for (int j = 0; j < cityList.size(); j++) {
+                                stringBuilder.append(cityArray[cityList.get(j)]);
+                                if (j != cityList.size() - 1) {
+                                    stringBuilder.append(", ");
+                                }
+                            }
+                            Log.i("log138", stringBuilder.toString());
+                            binding.iltextview.setText(stringBuilder);
+                        }
+                    });
+                    //çalışırda sorunlar olabiliyo hata yok
+//                    builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+//                        @Override
+//                        public void onClick(DialogInterface dialog, int which) {
+//                            dialog.dismiss();
+//                        }
+//                    });
+                    builder.setNegativeButton("Select All", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            cityList.clear();
+                            for (int j = 0; j < cityArray.length; j++) {
+                                selectedcity[j] = true;
+                                cityList.add(j);
+                            }
+                            StringBuilder stringBuilder = new StringBuilder();
+                            for (String il : cityArray.clone()) {
+                                stringBuilder.append(il);
+                                if (cityArray.length != cityList.size() - 1) {
+                                    stringBuilder.append(", ");
+                                }
+                            }
+                            binding.iltextview.setText(stringBuilder);
+                        }
+                    });
+
+                    builder.setNeutralButton("Clear All", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            for (int j = 0; j < selectedcity.length; j++) {
+                                selectedcity[j] = false;
+                                cityList.clear();
+                                binding.iltextview.setText("");
+                            }
+                        }
+                    });
+                    builder.show();
+                }
+            });
+        });
+     */
+        //endregion tüm illerin getirilmesi
+        -----------------------------------------------------------------------------

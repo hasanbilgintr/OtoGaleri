@@ -4,11 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     android:background="#e91818"
     android:orientation="vertical"
     android:padding="20dp"
-    tools:context=".ui.Login.LoginFragment">
+    tools:context=".pages.login.LoginFragment">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -17,39 +16,46 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-
             android:gravity="center"
             android:orientation="vertical">
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="450dp"
-
                 android:background="@drawable/logo" />
 
-            <EditText
-                android:id="@+id/edittext_username"
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:hint="Kullanıcı Adı" />
+                android:layout_height="wrap_content">
 
-            <EditText
-                android:id="@+id/edittext_password"
+                <EditText
+                    android:id="@+id/edittext_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="Kullanıcı Adı" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:hint="Şifre"
-                android:inputType="textPassword" />
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/edittext_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="Şifre"
+                    android:inputType="textPassword" />
+            </com.google.android.material.textfield.TextInputLayout>
 
             <Button
                 android:id="@+id/button_login"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#0f3057"
                 android:background="@drawable/menu_buton_back"
-
-                android:text="@string/next" />
+                android:text="@string/next"
+                android:textColor="#0f3057" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -58,14 +64,14 @@
                 android:paddingTop="10dp">
 
                 <TextView
+                    android:id="@+id/textview_newuser"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="left"
-                    android:id="@+id/textview_newuser"
-                    android:textStyle="bold"
+                    android:text="Yeni Hesap Oluştur"
 
-                    android:text="Yeni Hesap Oluştur" />
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -73,9 +79,9 @@
                     android:layout_weight="1"
 
                     android:gravity="right"
-                    android:textStyle="bold"
+                    android:text="Şifremi Unuttum"
 
-                    android:text="Şifremi Unuttum" />
+                    android:textStyle="bold" />
             </LinearLayout>
 
         </LinearLayout>

@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     android:background="#3897D9"
     android:orientation="vertical"
-    tools:context=".ui.home.HomeFragment">
-
+    tools:context=".pages.home.HomeFragment">
 
     <LinearLayout
         android:id="@+id/sliderlayout"
@@ -28,14 +27,12 @@
         android:id="@+id/menu"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"
-
+        android:layout_weight="1"
         android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
             android:orientation="horizontal">
 
             <Button
@@ -44,11 +41,27 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:background="@drawable/menu_buton_back"
-                android:drawableTop="@drawable/sale"
-                android:text="Satılık İlanlar"
+                android:drawableTop="@drawable/salecars"
+                android:paddingTop="15dp"
+                android:text="İlanlar"
+                android:id="@+id/ilanlarButton"
                 android:textColor="#0f3057"
+                android:textSize="13dp"
                 android:textStyle="bold" />
 
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:id="@+id/ilanver_button"
+                android:background="@drawable/menu_buton_back"
+                android:drawableTop="@drawable/addcar"
+                android:paddingTop="15dp"
+                android:text="İlan ver"
+                android:textColor="#0f3057"
+                android:textSize="13dp"
+                android:textStyle="bold" />
 
             <Button
                 android:layout_width="0dp"
@@ -56,19 +69,20 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:background="@drawable/menu_buton_back"
-                android:drawableTop="@drawable/rent"
-                android:text="Kiralık İlanlar"
+                android:drawableTop="@drawable/likecar"
+                android:paddingTop="15dp"
+                android:text="Favori İlanlar"
+
+
                 android:textColor="#0f3057"
-
+                android:textSize="13dp"
                 android:textStyle="bold" />
-
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
             android:orientation="horizontal">
 
             <Button
@@ -77,10 +91,11 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:background="@drawable/menu_buton_back"
-                android:drawableTop="@drawable/contact"
-                android:text="İletişim Bilgileri"
+                android:drawableTop="@drawable/profile"
+                android:paddingTop="15dp"
+                android:text="Profil Bilgileri"
                 android:textColor="#0f3057"
-
+                android:textSize="13dp"
                 android:textStyle="bold" />
 
             <Button
@@ -89,17 +104,25 @@
                 android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:background="@drawable/menu_buton_back"
-                android:drawableTop="@drawable/notice"
-                android:text="Duyurular"
+                android:drawableTop="@drawable/message"
+                android:paddingTop="15dp"
+                android:text="Mesajlarım"
                 android:textColor="#0f3057"
-
+                android:textSize="13dp"
                 android:textStyle="bold" />
 
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/menu_buton_back"
+                android:drawableTop="@drawable/mycar"
+                android:text="İlanlarım"
+                android:textColor="#0f3057"
+                android:textSize="13dp"
+                android:textStyle="bold" />
 
         </LinearLayout>
-
-
     </LinearLayout>
-
-
 </LinearLayout>

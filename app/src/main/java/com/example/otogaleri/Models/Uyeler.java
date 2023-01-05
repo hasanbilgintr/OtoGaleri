@@ -1,4 +1,4 @@
-package com.example.otogaleri.Models;
+package com.example.otogaleri.models;
 
 public class Uyeler {
     private String id;
@@ -20,7 +20,6 @@ public class Uyeler {
         this.kadi = kadi;
     }
 
-
     @Override
     public String toString() {
         return "Uyeler{" +
@@ -28,8 +27,6 @@ public class Uyeler {
                 ", kadi='" + kadi + '\'' +
                 '}';
     }
-
-
 
 
 }

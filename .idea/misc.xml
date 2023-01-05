@@ -28,9 +28,11 @@
         <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/layout/fragment_first.xml" value="0.67" />
         <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/layout/fragment_gallery.xml" value="0.655" />
         <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/layout/fragment_home.xml" value="0.7" />
-        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/layout/fragment_login.xml" value="0.75" />
-        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/layout/fragment_new_user.xml" value="0.8925" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/layout/fragment_login.xml" value="0.7272727272727273" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/layout/fragment_new_user.xml" value="0.7201017811704835" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/layout/fragment_newuser.xml" value="0.7" />
         <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/layout/fragment_slideshow.xml" value="0.655" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/layout/fragment_verification.xml" value="0.6575" />
         <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/layout/login_activty.xml" value="0.6557377049180327" />
         <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/layout/nav_header_main.xml" value="0.5" />
         <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/menu/activity_main2_drawer.xml" value="0.19166666666666668" />
@@ -46,5 +48,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.18" />
+      </ProjectState>
+    </option>
   </component>
 </project>

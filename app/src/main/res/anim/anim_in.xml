@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/linear_interpolator">
+    <alpha
+        android:duration="500"
+        android:fromAlpha="0.1"
+        android:toAlpha="1.0">
+
+
+    </alpha>
+</set>
+
+
+<!---android:duration="500" yükseltiren yavaş azaltırsan hızlı görünme sağlıyor-->
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<translate xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:duration="700"
+        android:fromXDelta="100%p"
+        android:toXDelta="0" />-->
+
+
+
+<!--res klasöründe new Directory ile açıldı name verilerek
+ new xml layout xml file ile açıldı 2side
+ -->
+
+    <!--yukardaki animasyonun tersi-->
+    <!--
+    <translate xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="700"
+        android:fromXDelta="-100%"
+        android:fromYDelta="0%"
+        android:toXDelta="0%"
+        android:toYDelta="0%" />-->

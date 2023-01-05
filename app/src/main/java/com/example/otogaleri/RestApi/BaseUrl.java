@@ -1,7 +1,7 @@
-package com.example.otogaleri.RestApi;
+package com.example.otogaleri.restapi;
 
 public class BaseUrl {
   
-    public static final String Url = "http://hasanbilgin.fun";
+    public static final String Url = "http://hasanbilgin.web.tr";
 
 }

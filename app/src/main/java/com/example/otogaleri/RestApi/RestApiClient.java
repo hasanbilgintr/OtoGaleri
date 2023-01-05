@@ -1,4 +1,4 @@
-package com.example.otogaleri.RestApi;
+package com.example.otogaleri.restapi;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

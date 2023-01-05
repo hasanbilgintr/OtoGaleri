@@ -1,4 +1,4 @@
-package com.example.otogaleri.RestApi;
+package com.example.otogaleri.restapi;
 
 public class BaseManager {
     protected RestApi getRestApi() {

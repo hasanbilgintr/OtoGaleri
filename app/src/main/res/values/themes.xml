@@ -2,6 +2,7 @@
     <!-- Base application theme. -->
     <!--buton rengi ile action bar aynı olmasının sebebebi bu parent olmasından  bunu  Theme.MaterialComponents.DayNight.DarkActionBar   den  Theme.AppCompat.DayNight.DarkActionBar yapıldı buton rengi farklı değiştirebilsin diye heriksiinede  -->
     <style name="Theme.OtoGaleri" parent="Theme.AppCompat.DayNight.DarkActionBar">
+
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -18,6 +19,12 @@
     <style name="Theme.OtoGaleri.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+    </style>
+
+<!--   RangeSlider için eklendi -->
+    <style name="MyMaterialTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Add attributes here -->
+        <item name="colorPrimary">@color/black</item>
     </style>
     <style name="Theme.OtoGaleri.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
     <style name="Theme.OtoGaleri.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
