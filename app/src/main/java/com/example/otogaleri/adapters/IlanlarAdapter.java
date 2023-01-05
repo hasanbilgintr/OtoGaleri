@@ -50,13 +50,13 @@ public class IlanlarAdapter  extends RecyclerView.Adapter<IlanlarAdapter.Ilanlar
             holder.binding.adrestextview.setText(ilanlarlist.get(position).getSehirAdi()+" / "+ilanlarlist.get(position).getilce()+" / "+ilanlarlist.get(position).getmahalle());
             holder.binding.fiyattextview.setText(ilanlarlist.get(position).getucret());
             holder.binding.markaSeriModelTextview.setText(ilanlarlist.get(position).getmarka()+" / "+ilanlarlist.get(position).getseri()+" / "+ilanlarlist.get(position).getmodel());
-            Picasso.get().load("http://hasanbilgin.web.tr/OtoGaleri//MyAdsImagePage/"+ilanlarlist.get(position).getyol()).resize(150,150).into(holder.binding.ilanlarresim);
+            Picasso.get().load("***"+ilanlarlist.get(position).getyol()).resize(150,150).into(holder.binding.ilanlarresim);
         }else{
             holder.cardBinding.baslikTextView.setText(ilanlarlist.get(position).getbaslik());
             holder.cardBinding.adresTextView.setText(ilanlarlist.get(position).getSehirAdi()+"/"+ilanlarlist.get(position).getilce()+"/"+ilanlarlist.get(position).getmahalle());
             holder.cardBinding.ucretTextView.setText(ilanlarlist.get(position).getucret());
             holder.cardBinding.markaSeriModelTextView.setText(ilanlarlist.get(position).getmarka()+"/"+ilanlarlist.get(position).getseri()+"/"+ilanlarlist.get(position).getmodel());
-            Picasso.get().load("http://hasanbilgin.web.tr/OtoGaleri//MyAdsImagePage/"+ilanlarlist.get(position).getyol()).resize(200,200).into(holder.cardBinding.ilanlarresim);
+            Picasso.get().load("***"+ilanlarlist.get(position).getyol()).resize(200,200).into(holder.cardBinding.ilanlarresim);
         }
 
 holder.itemView.setOnClickListener(new View.OnClickListener() {
