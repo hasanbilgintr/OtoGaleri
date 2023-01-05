@@ -1,4 +1,4 @@
-<h1>Used Technologies</h1>
+<h3>Used Technologies</h3>
 
 MVVM<br>
 Retrofit<br>
