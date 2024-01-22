@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e91818"
+
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".pages.veritification.VerificationFragment">
+
+    <EditText
+        android:id="@+id/edittext_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/edittext_kod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:hint="Doğrulama kodu"
+        />
+
+    <Button
+        android:id="@+id/button_verify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_buton_back"
+        android:text="Doğrula"
+        android:textColor="#0f3057" />
+
+</LinearLayout>

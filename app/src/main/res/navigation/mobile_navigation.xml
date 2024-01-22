@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home"
+    >
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.otogaleri.pages.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.otogaleri.pages.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.otogaleri.pages.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_deneme"
+        android:name="com.example.otogaleri.pages.deneme.fragmentdeneme"
+        android:label="@string/menu_deneme"
+        tools:layout="@layout/_fragmentdeneme" />
+    <fragment
+        android:id="@+id/nav_ads"
+        android:name="com.example.otogaleri.pages.ads.AdsFragment"
+        android:label="@string/menu_ads"
+        tools:layout="@layout/fragment_ads" />
+    <fragment
+        android:id="@+id/nav_myads"
+        android:name="com.example.otogaleri.pages.myAds.MyAdsFragment"
+        android:label="@string/menu_myads"
+        tools:layout="@layout/fragment_myads" />
+
+
+<!--    burada eklenmesse çalışmaz id layout vs..burdan alır-->
+</navigation>

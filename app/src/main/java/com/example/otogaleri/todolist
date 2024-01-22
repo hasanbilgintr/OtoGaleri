@@ -1,0 +1,16 @@
+buton resimleri düzeltilcek
+github atma çekme güncelleme ortak alışma vs... öğren
+contentte aktivite yani ilanver butonu için resim ekranında geri tuşuna basıldığındna öncekş aktiviteye dönmesin değişkenler düzelt
+fragment geri tuşu için örnek bulmak şart
+home dayken geri tuşu oturum kapatılsınmı hem dialalog olcak hemde oturumsonlandırmayada konulcak
+
+ilan açılımı yaparker 2.fragmente animasyon koyulcak dene bakalım sorun oluyomu
+spinnera id ve text atnmaası istendiğinde ikisinide almamız lazım
+navigation aktivasyonuna pencereye ilan ver fragmanlarıda tüm fragmanlar eklencek mailde profil resmide olsa harika olur
+
+net kontrolü yapmak lazım (her web api yi çalıştırdığoımızda lazım)
+bildirim değişçek yerişu an denemede
+not: ilanresimlerinde uyeid alanına gerek yok ama ilerde o üyenin ilanlarını çekerken tabloları birleştirmekten tek tablodan çektiriyo
+
+
+

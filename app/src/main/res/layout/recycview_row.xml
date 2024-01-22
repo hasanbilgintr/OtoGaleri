@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#E2E6B9"
+    android:layout_margin="1dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_weight="35">
+
+        <ImageView
+            android:id="@+id/ilanlarresim"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_weight="65"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/basliktextview"
+            android:layout_width="wrap_content"
+
+            android:textColor="#231616"
+            android:layout_height="0dp"
+            android:layout_weight="40"
+            android:textSize="14sp"
+            android:layout_margin="1dp" />
+
+        <TextView
+            android:id="@+id/markaSeriModelTextview"
+            android:layout_width="wrap_content"
+            android:textColor="#231616"
+            android:textSize="12sp"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp" />
+
+        <TextView
+            android:id="@+id/adrestextview"
+            android:textColor="#231616"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/fiyattextview"
+            android:textColor="#0000FF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:gravity="right" />
+    </LinearLayout>
+
+</LinearLayout>

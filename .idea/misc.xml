@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.175" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/drawable-v24/ic_menu_send.xml" value="0.1975" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/drawable-v24/ic_menu_share.xml" value="0.1975" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/drawable/ic_launcher_background.xml" value="0.175" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/drawable/ic_menu_camera.xml" value="0.1975" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.1975" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.1975" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/drawable/menu_buton_back..xml" value="0.175" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/drawable/menu_buton_focused.xml" value="0.175" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/drawable/menu_buton_normal.xml" value="0.175" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/drawable/menu_buton_pressed.xml" value="0.175" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/drawable/side_nav_bar.xml" value="0.1975" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.38095238095238093" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/layout-w936dp/activity_login.xml" value="0.21875" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/layout/_fragmentdeneme.xml" value="0.4921402660217654" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/layout/activity_login.xml" value="0.6557377049180327" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/layout/activity_main.xml" value="0.6313253012048192" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/layout/app_bar_main.xml" value="0.27291666666666664" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/layout/app_bar_main2.xml" value="0.371875" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/layout/content_login.xml" value="0.6190476190476191" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/layout/content_main.xml" value="0.6313253012048192" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/layout/content_main2.xml" value="0.371875" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/layout/fragment_first.xml" value="0.67" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/layout/fragment_gallery.xml" value="0.655" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/layout/fragment_home.xml" value="0.7" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/layout/fragment_login.xml" value="0.7272727272727273" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/layout/fragment_new_user.xml" value="0.7201017811704835" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/layout/fragment_newuser.xml" value="0.7" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/layout/fragment_slideshow.xml" value="0.655" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/layout/fragment_verification.xml" value="0.6575" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/layout/login_activty.xml" value="0.6557377049180327" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/layout/nav_header_main.xml" value="0.5" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/menu/activity_main2_drawer.xml" value="0.19166666666666668" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/menu/activity_main_drawer.xml" value="0.8142857142857143" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/menu/main.xml" value="0.27291666666666664" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/menu/main2.xml" value="0.19166666666666668" />
+        <entry key="..\:/YerelDiskD/USB/Projeler/Mobil/OtoGaleriUygulamasi/app/src/main/res/xml/network_security_config.xml" value="0.46" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="jbr-11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.5" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
